@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+  <html land = "en">
+    <head>
+	   <title>Hello!</title>
+	  <!-- meta name = "viewport" content = "width = device-width, initial-scale = 1.0"-->
+	  <!--<style>
+	  @media (min-width: 600px) {
+	     body {
+		     background-color: red;
+		 }
+	  }
+	  @media (max-width: 599px){
+	     body {
+		     background-color: blue
+		 }
+	  }
+	  </style>-->
+	  <style>
+	     #container {
+		    display: flex;
+		    flex-wrap: wrap;
+		 }
+		 #container > div {
+		    background-color: springgreen;
+			font-size: 20px;
+			margin: 20px;
+			padding: 20px;
+		}
+		 #grid {
+		    background-color: green;
+			display: grid;
+			padding: 20px;
+			grid-column-gap: 20px;
+			grid-row-gap: 10px;
+			grid-template-columns: 200px 200px auto;
+		}
+		 .grid-item {
+		background-color: white;
+		font-size: 20px;
+		padding: 20px;
+		}
+	   </style>
+	</head>
+    <body>
+	   <div><h1>Hello world!</h1></div>
+         <ol>
+	       <li id = "foo">One</li>
+		   <li>Two</li>
+	     </ol>
+	     <ul>
+	       <li>One</li>
+		   <li>Two</li>
+		   <li>Three</li>
+	     </ul>
+		<img src="IMG_20200417_124228.jpg" alt="Mary" width=300>
+		<h2>
+		  <a href = "http://google.com">Click here</a>
+		</h2>
+	  <table>
+	   <thead>
+	      <tr>
+	         <th>Column1</th>
+		     <th>Column2</th>
+		     <th>Column3</th>
+		  </tr>
+	   </thead>
+	   <tbody>
+	      <tr>
+		     <td>cell1</td>
+			 <td>cell2</td>
+			 <td>cell3</td>
+		  </tr>
+	   </tbody>
+	  </table>
+	  <input type = "text" placeholder = "Full Name" name = "name">
+	  <input type = "password" placeholder = "Password">
+	  <input type = "submit">
+	  <div id = "container">
+	      <div>1.Text inside div1</div>
+		  <div>2.Text inside div2</div>
+		  <div>3.Text inside div3</div>
+		  <div>4.Text inside div4</div>
+	  </div>
+	  <div id = "grid">
+	    <div class = "grid-item">1</div>
+		<div class = "grid-item">2</div>
+		<div class = "grid-item">3</div>
+		<div class = "grid-item">5</div>
+		<div class = "grid-item">6</div>
+		<div class = "grid-item">7</div>
+	  </div>
+	  Favorite color?
+	  <input name = "color" type = "radio" value = "red"> Red
+	  <input name = "color" type = "radio" value = "green">Green
+	  <input name = "color" type = "radio" value = "blue">Blue
+	  <input name = "color" type = "radio" value = "other">Other
+	  
+	  
+	  <input name = "country" list = "countries" placeholder = "Country">
+      	  <datalist id = "countries">
+		     <option value = "USA">
+			 <option value = "Ukraine">
+			 <option value = "Canada">
+	  
+	  
+	
+	</body>
+	
+  </html>
